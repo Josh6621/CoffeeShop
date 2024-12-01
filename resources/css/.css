@@ -1,0 +1,113 @@
+body{
+    background-color: black;
+    margin: 0;
+}
+.logo{
+    height: 50px;
+}
+*{
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    opacity: 0.9;
+}
+header{
+    display:flex;
+    border-bottom: 1px solid white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: auto;
+   
+}
+.menu li{
+    display: inline-flex;
+   margin-left: 15px;
+   text-decoration: underline;
+   margin-right: 10px;
+}
+.menu{
+    margin-left: auto;
+}
+.title{
+    display: inline-flex;
+    background-color: black;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    opacity: 100;
+    padding-left: 40px;
+    max-height: 125px;
+}
+.ourmission {
+    display: flex; /* Use Flexbox for alignment */
+    flex-direction: column; /* Stack items vertically */
+    justify-content: center; /* Center items vertically */
+    align-items: center; /* Center items horizontally */
+    width: 1200px; /* Full width of the container */
+    height: 700px; /* Set the desired height */
+    background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg');
+    background-size: cover; /* Cover the entire container */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent tiling */
+    color: seashell; /* Text color */
+    text-align: center; /* Center text */
+    padding: 20px; /* Add padding inside the container */
+    box-sizing: border-box; /* Include padding in the element's total width and height */
+    margin: 69px 125px;
+    
+}
+.tea img{
+    max-width: 300px;
+    max-height: 200px;
+}
+.teaofthemonth{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.tea{
+   display: flex;
+   flex-wrap: wrap;
+   width: 100%;
+   justify-content: center;
+}
+figure{
+margin: 10px;
+}
+figcaption{
+   text-align: center;
+    margin-top: 10px;
+}
+#title2{
+    position: absolute;
+    top: 40px;
+}
+.Location{
+    position: relative;
+    display: flex;
+    background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*12pcpfo*_gcl_aw*R0NMLjE3Mjc4ODA2NTEuRUFJYUlRb2JDaE1JMzczNDlfanZpQU1WRUVKSEFSM0VhaklERUFBWUFTQUFFZ0paUHZEX0J3RQ..*_gcl_au*ODAzNTI1MjA2LjE3Mjc4ODA2NDQ.*_ga*MjQwNzU1ODYzOS4xNzI3ODgwNjM2*_ga_3LRZM6TM9L*MTcyODY2ODE4OS4zOC4xLjE3Mjg2NjgyMDQuNDUuMC4w');
+    height: 500px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.Downtown, .Eastbay, .Oakdale{
+    display: inline-flex;
+    border: 1px solid black;
+    width: 300px;
+    height: 300px;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    opacity: 100;
+   margin-left: 20px; 
+}
+.foot{
+    text-align: center;
+}
+.copyright{
+    margin-left: 20px;
+}
